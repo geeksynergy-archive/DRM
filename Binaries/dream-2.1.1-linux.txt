@@ -1,0 +1,49 @@
+Linux 
+32 and 64 bit Linux builds are created using the OpenSUSE build system. Repositories are now available for several distributions. 
+
+Debian 7.0 (wheezy)
+
+echo 'deb http://download.opensuse.org/repositories/home:/juliancable/Debian_7.0 ./ >> /etc/apt/sources.list
+wget http://sourceforge.net/projects/drm/files/pubkey
+apt-key add pubkey
+apt-get update
+apt-get install dream
+
+Debian 6.0 (squeeze) 
+
+echo 'deb http://download.opensuse.org/repositories/home:/juliancable:/branches:/home:/juliancable/Debian_6.0  ./ >> /etc/apt/sources.list
+wget http://sourceforge.net/projects/drm/files/pubkey
+apt-key add pubkey
+apt-get update
+apt-get install dream
+
+openSUSE 12.2 
+
+zypper ar http://download.opensuse.org/repositories/home:/juliancable/openSUSE_12.2/ dream
+zypper install dream
+
+
+Fedora (replace Fedora_19 with Fedora_17 or Fedora_18 to match your installation.)
+
+cd /etc/yum.repos.d/
+wget http://download.opensuse.org/repositories/home:/juliancable/Fedora_19/home:juliancable.repo
+yum install dream
+
+
+Ubuntu 13.10 (replace 13.10 with 13.04, 12.10 or 12.04 to match your installation.)
+
+echo 'deb http://download.opensuse.org/repositories/home:/juliancable/xUbuntu_13.10 ./ >> /etc/apt/sources.list
+wget http://sourceforge.net/projects/drm/files/pubkey
+apt-key add pubkey
+apt-get update
+apt-get install dream
+
+Ubuntu 10.04
+
+echo 'deb http://download.opensuse.org/repositories/home:/juliancable:/branches:/home:/juliancable/xUbuntu_10.04 ./ >> /etc/apt/sources.list
+wget http://sourceforge.net/projects/drm/files/pubkey
+apt-key add pubkey
+apt-get update
+apt-get install dream
+
+This may work for 10.10, 11.04 and 11.10. 
