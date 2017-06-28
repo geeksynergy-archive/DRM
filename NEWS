@@ -1,0 +1,19 @@
+The Dream development team today releases Dream version 1.12.
+
+Dream is a DRM (Digital Radio Mondiale) software receiver and decoder.
+It is a very complete receiver, featuring compliant decoding of HE AAC v2
+audio streams, journaline decoding, a feature rich statistics section
+providing invaluable information about the streams being received, and automatic
+update of available stations from the web, among several other features.
+
+It also features a limited transmission mode, that uses the FAAC AAC encoder.
+
+Dream is multi-platform and has been tested on OSX, Win32 and Linux.
+
+Changes since version 1.11:
+
+  - Fixed problem where users directories being cleared when clearing cache
+  - Fixed timezone problems with EPG
+  - Fixed problem when EPG is 4th service
+
+The source files are available here: http://drm.sourceforge.net
